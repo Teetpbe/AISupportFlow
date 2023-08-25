@@ -2,13 +2,242 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首頁 - AISupportFlow</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-size: 20px;
+      padding-top: 5px;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    .text-body-secondary {
+      font-size: 20px;
+    }
+
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+  </style>
 </head>
 
 <body>
-    <p>hi, this is from AISupportFlow</p>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.png" alt="brand icon" height="30" />
+        AISupportFlow </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">關於我們</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              服務項目
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="service.html">服務簡介</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="tech_detail.html">技術細節</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="case_demo.html">案例展示</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">
+      AISupportFlow - Revolutionizing Customer Support
+    </h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        歡迎來到AISupportFlow ，我們提供創新的客戶服務解決方案。我們的目標是提供無縫、高效且以客戶為中心的客服體驗。探索我們如何重新定義您的客戶支援服務。
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="case_demo.html">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Get an Example
+          </button>
+        </a>
+        <a href="contact.html">
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Contact Us
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 40vh">
+      <div class="container px-5">
+        <img src="./assets/images/agent.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+          width="700" height="500" loading="lazy" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">AISupportFlow 能提供您</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/svg_icons/users-solid.svg" alt="support-icon" height="30" />
+        </div>
+        <h3 class="fs-2">專業支援</h3>
+        <p>
+          在 AISupportFlow ，我們專注於提供專業的客服解決方案。我們專業的支援團隊致力於向您的客戶提供及時有效的幫助。無論是疑難解答技術問題還是回答查詢，我們確保提供無縫且正面的體驗，提升客戶滿意度。
+        </p>
+        <a href="service.html" class="icon-link">
+          了解更多
+          <img src="./assets/svg_icons/chevron-right.svg" alt="chevron-right" />
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/svg_icons/lightbulb-regular.svg" alt="innovation-icon" height="30" />
+        </div>
+        <h3 class="fs-2">尖端科技</h3>
+        <p>
+          我們透過創新的科技來改變客戶服務。我們的先進支援平台、人工智能聊天機器人和數據分析使我們能夠更好地幫助企業了解客戶需求，提供量身定制的解決方案。通過 AISupportFlow
+          ，您可以充分利用科技的力量，優化您的支援流程並增強客戶互動。
+
+        </p>
+        <a href="tech_detail.html" class="icon-link">
+          探索科技解決方案
+          <img src="./assets/svg_icons/chevron-right.svg" alt="chevron-right" />
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/svg_icons/comments-regular.svg" alt="personal-touch-icon" height="30" />
+        </div>
+        <h3 class="fs-2">個人化互動</h3>
+        <p>
+          AISupportFlow 相信個人化的互動的力量。我們不僅僅提供有溫度的回應，還會與您的客戶建立有意義的聯繫。我們的情感客服對話系統經過培訓，能夠同理並理解每個客戶的獨特需求，確保建立信任和忠誠度的人性化接觸。透過
+          AISupportFlow 的個人化方法，提升您的客戶支援服務。
+        </p>
+        <a href="case_demo.html" class="icon-link">
+          開始使用
+          <img src="./assets/svg_icons/chevron-right.svg" alt="chevron-right" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <!-- <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/svg_icons/couple.jpg" class="d-block w-100" alt="couple">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/svg_icons/dog.jpg" class="d-block w-100" alt="dog">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/svg_icons/family.jpg" class="d-block w-100" alt="family">
+        </div>
+      </div> -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="py-5 my-4">
+      <div class="row border-top pt-4">
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">AISupportFlow </h4>
+          <p class="text-body-secondary">
+            AISupportFlow
+            是一家致力於提供優質客戶支援服務的創新公司。我們的使命是通過科技和人性化的方法，為客戶帶來卓越的支援體驗。
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">服務項目</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="service.html" class="nav-link text-body-secondary">服務簡介</a>
+            </li>
+            <li>
+              <a href="tech_detail.html" class="nav-link text-body-secondary">技術細節</a>
+            </li>
+            <li>
+              <a href="case_demo.html" class="nav-link text-body-secondary">案例展示</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">聯絡我們</h4>
+          <p class="text-body-secondary">
+            有任何問題或需求嗎？隨時聯繫我們的客戶支援團隊，我們將竭誠為您提供幫助。
+          </p>
+          <p class="text-body-secondary">Email: support@AISupportFlow .com</p>
+          <p class="text-body-secondary">電話：(02) 8668-7890</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="container-fluid px-0">
+    <div class="border p-4 my-0 text-center" style="background-color: #343a40">
+      <p style="color: white">
+        © 2023 AISupportFlow , Inc. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

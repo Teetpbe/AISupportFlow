@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>案例展示 - AISupportFlow </title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    .text-body-secondary {
+      font-size: 20px;
+    }
+
+    .industry-block {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .industry-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .case-intro {
+      padding: 1rem;
+    }
+
+    .message {
+      opacity: 0;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+      padding: 1rem;
+    }
+
+    .user-message {
+      background-color: #cdf0ea;
+      align-self: flex-end;
+      animation-name: slideInRight;
+      animation-delay: 1s;
+    }
+
+    .chatbot-message {
+      background-color: #f0e6cd;
+      align-self: flex-start;
+      animation-name: slideInLeft;
+      animation-delay: 3s;
+    }
+
+    @keyframes slideInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.png" alt="brand icon" height="30" />
+        AISupportFlow </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">關於我們</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              服務項目
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="service.html">服務簡介</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="tech_detail.html">技術細節</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="case_demo.html">案例展示</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row justify-content-center px-4 pt-5 my-5 text-center">
+      <h1 class="display-4 fw-bold">案例展示</h1>
+      <div class="col-md-12">
+        <p>
+          當我們深入探討各行各業的案例展示時，我們總是充滿期待。接下來，我們將引領您進入一個精彩的案例世界，展示了不同產業中
+          AISupportFlow 所提供的客戶支援服務的真實效果。
+        </p>
+        <p>
+          在金融業領域，我們致力於為客戶提供一站式的財務支援，涵蓋申請資訊查詢、交易疑難解答等。我們的目標是確保客戶在財務領域的疑問能夠獲得即時且準確的解決方案，讓他們的財務狀況得到妥善管理。
+        </p>
+        <p>
+          而在科技產品界，我們則全力協助客戶解決各種技術疑難，提供產品升級和維修支援。無論是筆記本電腦的開機困難還是手機的功能問題，我們的專家團隊都會給予最適切的建議，確保客戶的科技產品能夠保持最佳運行狀態。
+        </p>
+        <p>
+          透過這些案例，我們希望展示 AISupportFlow
+          如何在不同領域中發揮關鍵作用，並為客戶提供獨特的解決方案。請隨我們一同深入了解，如何在各種情境下，我們的支援能夠助您克服挑戰，實現更順暢的業務和生活。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="industry-block">
+          <h2 class="industry-title">金融業 - Financial Industry</h2>
+          <div class="chatbox text-body-secondary">
+            <div class="case-intro">
+              在金融業，我們提供了全方位的客戶支援服務，包括協助查詢及整理申請信用卡詳情、信用卡優惠，官網資訊等。我們的目標是確保客戶的疑問及需求得到迅速且準確的解決。
+            </div>
+            <div class="message user-message">我想知道如何申請信用卡。</div>
+            <div class="message chatbot-message">
+              申請信用卡非常簡單！您可以在我們的官方網站上找到申請表格，填寫必要的資訊並提交。我們的團隊將會在最短的時間內處理您的申請。
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="industry-block" style="animation-delay: 5s">
+          <h2 class="industry-title">科技產品 - Tech Products</h2>
+          <div class="chatbox text-body-secondary">
+            <div class="case-intro">
+              在科技產品領域，我們致力於解決您的技術問題，並提供產品升級和維修支援。我們的專家團隊將確保您的產品保持最佳運行狀態，提供即時的問題排除協助，增加客戶滿意度。
+            </div>
+            <div class="message user-message">我的筆記本電腦無法開機。</div>
+            <div class="message chatbot-message">
+              很抱歉聽到這個問題。請嘗試按住電源按鈕數秒，然後再次嘗試開機。如果問題仍然存在，請您聯絡我們的技術支援團隊以獲取更進一步的幫助。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="py-5 my-4">
+      <div class="row border-top pt-4">
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">AISupportFlow </h4>
+          <p class="text-body-secondary">
+            AISupportFlow
+            是一家致力於提供優質客戶支援服務的創新公司。我們的使命是通過科技和人性化的方法，為客戶帶來卓越的支援體驗。
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">服務項目</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="service.html" class="nav-link text-body-secondary">服務簡介</a>
+            </li>
+            <li>
+              <a href="tech_detail.html" class="nav-link text-body-secondary">技術細節</a>
+            </li>
+            <li>
+              <a href="case_demo.html" class="nav-link text-body-secondary">案例展示</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4 class="mb-3">聯絡我們</h4>
+          <p class="text-body-secondary">
+            有任何問題或需求嗎？隨時聯繫我們的客戶支援團隊，我們將竭誠為您提供幫助。
+          </p>
+          <p class="text-body-secondary">Email: support@AISupportFlow .com</p>
+          <p class="text-body-secondary">電話：(02) 8668-7890</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="container-fluid px-0">
+    <div class="border p-4 my-0 text-center" style="background-color: #343a40">
+      <p style="color: white">
+        © 2023 AISupportFlow , Inc. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+
+  <!-- Bootstrap, for dropdown menu -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // JavaScript code for handling the chat conversation
+    const chatbox = document.getElementById("chatbox");
+
+    // Function to add a user message with animation delay to the chatbox
+    function addUserMessage(message, delay) {
+      setTimeout(() => {
+        const messageElement = document.createElement("div");
+        messageElement.className = "message user-message";
+        messageElement.textContent = message;
+        chatbox.appendChild(messageElement);
+      }, delay);
+    }
+
+    // Function to add a chatbot message with animation delay to the chatbox
+    function addChatbotMessage(message, delay) {
+      setTimeout(() => {
+        const messageElement = document.createElement("div");
+        messageElement.className = "message chatbot-message";
+        messageElement.textContent = message;
+        chatbox.appendChild(messageElement);
+      }, delay);
+    }
+  </script>
+</body>
+
+</html>
